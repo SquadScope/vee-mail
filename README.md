@@ -20,6 +20,7 @@ git clone https://github.com/SquadScope/vee-mail
 move the directory "vee-mail" to /opt or any other directory you would like to install it into
 change vee-mail.confg file to your needs.
 chmod +x vee-mail.sh
+
 install nullmailer
 
 sudo nano /etc/nullmailer/remotes
