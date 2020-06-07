@@ -32,8 +32,11 @@ sudo nano /etc/mailname
 sudo nano /etc/nullmailer/defaultdomain
     example.tld
     
-nano /etc/nullmailer/adminaddr
+sudo nano /etc/nullmailer/adminaddr
     admin@example.tld
+
+sudo export NULLMAILER_HOST=example.tld
+sudo export NULLMAILER_USER=tiffany.test
 
 The vee-mail.sh script is prepared to send a mail using CC to a second person. To make use of it just uncomment "echo "Cc: $friendname $ltlt$EMAILCCTO$gtgt" >> $EMAILFILE" at the end of vee-mail.sh and enter an email address in "EMAILCCTO=" in vee-mail.config
 
